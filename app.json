@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Brains vs Words",
+    "slug": "brainVword",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.Noice_Software.brain_vs_words",
+      "versionCode": 1,
+      "permissions": [
+        "com.sec.android.provider.badge.permission.READ",
+        "com.sec.android.provider.badge.permission.WRITE",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.majeur.launcher.permission.UPDATE_BADGE",
+        "READ_INTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "androidNavigationBar":{
+      "backgroundColor": "#ffffff",
+      "barStyle": "light-content"
+    }
+  }
+}
